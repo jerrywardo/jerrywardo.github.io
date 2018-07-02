@@ -51,4 +51,5 @@ p {
 
 .marvel{
 	background-image: url(marvel1-2.jpeg);
+	background-repeat: none;
 }
