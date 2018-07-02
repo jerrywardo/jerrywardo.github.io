@@ -30,7 +30,8 @@ header {
 
 footer {
 	border-top: 1px solid black;
-	margin-top: 40px;
+	margin-top: 40px; 
+	clear: both;
 }
 a{
 	font-size: 10px;
@@ -48,11 +49,35 @@ h1{
 p {
 	font-family: 'Shrikhand', cursive;
 }
-
-.marvel{
-	background-image: url(marvel1-2.jpeg);
-	background-repeat: none;
-}
 .white {
-	color: white;
+	color: black;
+}
+
+.marvel {
+	margin-left: 15%;
+}
+.list1
+    {
+        color: black;
+        font-weight: 700;
+        float:left;
+        font-family: 'Source Sans Pro';
+        width: 45%;
+        margin-left: 5%;
+        padding: 0;
+        list-style-type: none
+    }
+
+.list2 {
+        color: black;
+        font-weight: 700;
+        float:left;
+        font-family: 'Source Sans Pro';
+        width: 45%;
+        padding: 0;
+        list-style-type: none
+}
+
+.dc {
+	margin-left: 25%;
 }
