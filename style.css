@@ -1,0 +1,46 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topnav {
+	padding: 20px 0px;
+	text-align: right;
+}
+
+/* Targets just <a> tags inside of the <nav class="topnav"> */
+.topnav a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-weight: 600;
+}
+
+/* Targets just <a> tags inside of the <nav class="topnav">,
+   when mouse is hovering over it: 
+*/
+.topnav a:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: black;
+}
+
+header {
+
+}
+
+footer {
+	border-top: 1px solid black;
+	margin-top: 40px;
+}
+a{
+	font-size: 10px;
+
+}
+h1{
+	text-align: left;
+	margin-left: 5%;
+}
+
+.homepg {
+	margin-left: 24%;
+}
